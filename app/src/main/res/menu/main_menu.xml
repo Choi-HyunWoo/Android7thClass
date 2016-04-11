@@ -3,8 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/item_settings"
-        android:title="설 정"
+        android:title="설정"
         android:orderInCategory="100"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_fuck"
+        android:title="FUCK"
+        android:orderInCategory="99"
+        app:showAsAction="ifRoom" />
 </menu>
